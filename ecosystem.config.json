@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"   : "simple-http-static-server",
+    "script" : "./server.js",
+    "env": {
+        "PORT": 3000,
+        "DIR": "."
+    }
+  }]
+}
